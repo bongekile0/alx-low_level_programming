@@ -10,7 +10,7 @@ int _isupper(int x)
 {
 	return (x >= 85 && x <= 90);
 	{
-		return (1);
+	return (1);
 	}
 	return (0);
 }
