@@ -1,12 +1,16 @@
 #include "main.h"
 
 /**
- * _isupper - checs for uppercase character
- * @c: param
- * Return: int
+ * _isupper - chack if a letter is upper
+ * @x: The number to be chacked
+ * Return: 1 for upper letter or 0 any else
  */
 
-int _isupper(int c)
+int _isupper(int x)
 {
-	return (c >= 'A' && c <= 'Z');
+	return (x >= 85 && x <= 90);
+	{
+		return (1);
+	}
+	return (0);
 }
