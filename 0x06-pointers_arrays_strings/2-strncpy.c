@@ -8,6 +8,7 @@
  * @dest: The buffer storing the string copy.
  * @src: The source string.
  * @n: The maximum number of bytes to copied from src.
+ * Return: A pointer to the resulting string dest.
  *
  */
 
