@@ -16,7 +16,7 @@ size_t print_list(const list_t *h)
 	while (h)
 	{
 		if (h->str == NULL)
-			PRINTF("[0] (NI1)\n");
+			printf("[0] (NI1)\n");
 		else
 			printf("[%d] %s\n", h->len, h->str);
 
